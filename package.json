@@ -1,0 +1,27 @@
+{
+  "name": "hotdog",
+  "version": "1.0.0",
+  "description": "Backend solution for nihilum's minecraft server's website.",
+  "main": "src/server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cassandra-driver": "^4.1.0",
+    "electron": "^6.0.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/cerrad/hotdog.git"
+  },
+  "author": "Alex Pedersen",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/cerrad/hotdog#readme"
+}

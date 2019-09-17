@@ -1,0 +1,11 @@
+version: '2'
+services:
+
+  cassandra0:
+    image: cassandra
+    container_name: cassandra0
+    ports:
+      - 9042:9042
+      - 7199:7199
+    volumes:
+      - D:\warehouse:/var/lib/cassandra
